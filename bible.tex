@@ -1,0 +1,173 @@
+% bible.tex
+
+% Copyright (C) 2024 A. G. Th. Vidovicus.
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published
+% by the Free Software Foundation, either version 3 of the License,
+% or (at your option) any later version.
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty
+% of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+% See the GNU General Public License for more details.
+
+% You should have received a copy of the GNU General Public License along
+% with this program. If not, see <https://www.gnu.org/licenses/>.
+
+% ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+% ┃ Biblia Sacra ex Sebastiani Castellionis interpretatione: ┃
+% ┃                   Editio Contemporanea                   ┃
+% ┃                        01.07.2024                        ┃
+% ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+\usepath[
+  bibliography,
+  configuration,
+  lua,
+  parts/covers,
+  parts/preface,
+  parts/new_testament/gospels,
+  parts/new_testament/acts,
+  parts/new_testament/epistles/pauline,
+  parts/new_testament/epistles/hebrews,
+  parts/new_testament/epistles/catholic,
+  parts/new_testament/revelation,
+]
+
+\startproduct biblia_sacra
+\environment configuration
+
+\startdocument
+\enableinputtranslation
+
+\startcover
+  \component frontcover
+\stopcover
+
+\startinnertitle
+  \pagebreak[empty]
+  \pagebreak[empty]
+\stopinnertitle
+
+\startfrontmatter
+  %\component preface
+  %\component admonition
+  %\component way
+  %\component judgement
+  %\component quidam
+\stopfrontmatter
+
+\startbodymatter
+  %\component genesis
+  %\component exodus
+  %\component leviticus
+  %\component numbers
+  %\component deuteronomy
+
+  %\component joshua
+  %\component judges
+  %\component ruth
+  %\component 1_samuel
+  %\component 2_samuel
+  %\component 1_kings
+  %\component 2_kings
+  %\component 1_chronicles
+  %\component 2_chronicles
+
+  %\component ezra
+  %\component nehemiah
+  %\component esther
+
+  %\component job
+  %\component psalms
+  %\component proverbs
+  %\component ecclesiastes
+  %\component song
+
+  %\component isaiah
+  %\component jeremiah
+  %\component lamentations
+  %\component ezekiel
+  %\component daniel
+  %\component hosea
+  %\component joel
+  %\component amos
+  %\component obadiah
+  %\component jonah
+  %\component micah
+  %\component nahum
+  %\component habakkuk
+  %\component zepheniah
+  %\component haggai
+  %\component zechariah
+  %\component malachi
+
+  %\component matthew
+  \component mark
+  %\component luke
+  %\component john
+
+  %\component acts
+
+  %\component romans
+  %\component 1_corinthians
+  %\component 2_corinthians
+  %\component galatians
+  %\component ephesians
+  %\component philippians
+  %\component colossians
+  %\component 1_thessalonians
+  %\component 2_thessalonians
+  %\component 1_timothy
+  %\component 2_timothy
+  %\component titus
+  %\component philemon
+
+  %\component hebrews
+
+  \component james
+  %\component 1_peter
+  %\component 2_peter
+  \component 1_john
+  \component 2_john
+  \component 3_john
+  \component jude
+
+  \component revelation
+
+  \starttitle[title={Novī Testāmentī fīnis}]
+    Habēs, lēctor, quae nōs in praesentiā potuimus.
+    Quodsī quid bene dictum est, Deō tribuī laus dēbet, omnium bonōrum datōrī;
+    sīn quid errātum est, ignōsce nōbīs, ut ipse tibi vellēs ignōscī.
+    Deinceps sī voluerit \DEUS, utī plūra et meliōra discāmus,
+    plūra et meliōra dabimus, volente \DEŌ.
+  \stoptitle
+\stopbodymatter
+
+\startbackmatter
+  \starttitle[title={Bibliographia}]
+    % Hyphenating names in various languages is a bad idea,
+    % it is better to disable it completely
+    \setuphyphenation[method=none]
+    \placelistofpublications[method=dataset]
+  \stoptitle
+
+  \starttitle[title={Quod in librō continetur}]
+    \placecontent
+  \stoptitle
+\stopbackmatter
+
+\startbackcover
+  \component backcover
+\stopbackcover
+
+\disableinputtranslation
+\stopdocument
+\stopproduct
+
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: context
+%%% TeX-master: t
+%%% End:

@@ -1,0 +1,75 @@
+% Copyright (C) 2024 A. G. Th. Vidovicus.
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published
+% by the Free Software Foundation, either version 3 of the License,
+% or (at your option) any later version.
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty
+% of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+% See the GNU General Public License for more details.
+
+% You should have received a copy of the GNU General Public License along
+% with this program. If not, see <https://www.gnu.org/licenses/>.
+
+% ┌──────────┐
+% │01.07.2024│
+% └──────────┘
+
+\startcomponent frontcover
+\startstandardmakeup
+\setuplayout[
+  backspace=1cm,
+  margin=1cm,
+  width=middle,
+]
+
+\definemeasure[picture_side][\paperwidth/2]
+\definemeasure[font_size][\paperwidth/32]
+\definemeasure[medium_font_size][\paperwidth/16]
+\definemeasure[big_font_size][\paperwidth/8]
+\definemeasure[space_size][\paperwidth/96]
+\definemeasure[medium_space_size][\paperwidth/48]
+\definemeasure[big_space_size][\paperwidth/24]
+\vfil
+\setupexternalfigures[location={local,default}]
+\raggedcenter
+{
+  \definedfont[Caps at \measure{big_font_size}]
+  \color[accent_color]{Biblia\:Sacra}
+}
+\blank[\measure{big_space_size}]
+{
+  \definedfont[Serif at \measure{font_size}]
+  ex
+}
+\blank[\measure{big_space_size}]
+{
+  \definedfont[Caps at \measure{medium_font_size}]
+  \color[accent_color]{Sebastiānī\:Castelliōnis}
+}
+\blank[\measure{big_space_size}]
+{
+  \definedfont[Serif at \measure{font_size}]
+  interpretātiōne ejus‧que postrēmā recognitiōne
+}
+\vfil\vfil\vfil
+\placefigure[none]{}{%
+  \externalfigure[./images/castellio.png][height={\measure{picture_side}}]
+}
+\vfil\vfil\vfil
+\definedfont[Italic at \measure{font_size}] Cracoviae
+\blank[0.4em]
+\definedfont[Serif at \measure{font_size}] Apud \myInitialsAcc
+\blank[0.2em]
+\definedfont[Caps at \measure{font_size}] \romannumerals{2024}
+\vfil
+\stopstandardmakeup
+\stopcomponent
+
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: context
+%%% TeX-master: t
+%%% End:

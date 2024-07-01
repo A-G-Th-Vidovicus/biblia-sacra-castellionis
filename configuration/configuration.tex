@@ -1,0 +1,819 @@
+% configuration.tex
+
+% Copyright (C) 2024 A. G. Th. Vidovicus.
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published
+% by the Free Software Foundation, either version 3 of the License,
+% or (at your option) any later version.
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty
+% of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+% See the GNU General Public License for more details.
+
+% You should have received a copy of the GNU General Public License along
+% with this program. If not, see <https://www.gnu.org/licenses/>.
+
+% ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+% ┃ Biblia Sacra ex Sebastiani Castellionis interpretatione: ┃
+% ┃                   Editio Contemporanea                   ┃
+% ┃                        01.07.2024                        ┃
+% ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+\startenvironment configuration
+
+% Module for raw input translation
+\usemodule[translate]
+
+% Loading Lua tables with input translations and macros
+\startluacode
+  require("input_translations")
+  require("macros")
+  require("font_features")
+\stopluacode
+
+\mainlanguage[la]
+
+% Bibliography in xml file
+\usebtxdataset[bibliography.xml]
+
+\definefontfeature[classical][default]
+                  [no_macrons=yes,fimacron_to_fi=yes,no_j=yes]
+\definefontfeature[no_macrons][default]
+                  [no_macrons=yes,fimacron_to_fi=yes]
+\definefontfeature[no_j][default]
+                  [no_j=yes]
+\definefontfeature[oxford][default]
+                  [no_macrons=yes,fimacron_to_fi=yes,no_j=yes,no_v=yes]
+\definefontfeature[y_tilde_to_y_macron][default]
+                  [y_tilde_to_y_macron=yes]
+
+% Latin Modern, but with proper ȳ
+\definefontfamily[lmrm][rm][Latin Modern Roman]
+                 [features=y_tilde_to_y_macron,sc=file:lmromancaps10-regular]
+
+% Latin Modern without j and macrons
+\definefontfamily[lmrm_classical][rm][Latin Modern Roman]
+                 [features=classical,sc=file:lmromancaps10-regular]
+
+% Latin Modern without macrons
+\definefontfamily[lmrm_no_macrons][rm][Latin Modern Roman]
+                 [features=no_macrons,sc=file:lmromancaps10-regular]
+
+% Latin Modern without j
+\definefontfamily[lmrm_no_j][rm][Latin Modern Roman]
+                 [features=no_j,y_tilde_to_y_macron,sc=file:lmromancaps10-regular]
+
+% Latin Modern without j, v, and macrons
+\definefontfamily[lmrm_oxford][rm][Latin Modern Roman]
+                 [features=oxford,sc=file:lmromancaps10-regular]
+
+% Latin Modern Small Caps without j and macrons
+\definefontfamily[lmsc][rm][Latin Modern Roman]
+                 [features=classical,sc=file:lmromancaps10-regular]
+
+% Standard body font
+%\setupbodyfont[lmrm]
+\translateinput[ȳ][ỹ]
+%\translateinput[Ȳ][Ỹ]
+
+% ┌────────┐
+% │Metadata│
+% └────────┘
+
+\setupdocument[
+    metadata:author={Sebastianus Castellio},
+     metadata:title={Biblia Sacra ex Sebastiani Castellionis interpretatione},
+   metadata:subject={Biblia Sacra ex Sebastiani Castellionis interpretatione},
+  metadata:keywords={%
+                      acta,%
+                      actus,%
+                      apocalypsis,%
+                      apostoli,%
+                      apostolus,%
+                      biblia,%
+                      castellio,%
+                      christus,%
+                      epistola,%
+                      epistolae,%
+                      evangelia,%
+                      evangelium,%
+                      foedus,%
+                      jacobus,%
+                      jesus,%
+                      johannes,%
+                      juda,%
+                      lucas,%
+                      marcus,%
+                      matthaeus,%
+                      paulus,%
+                      petrus,%
+                      sacra,%
+                      sacrum,%
+                      sebastianus,%
+                      scriptura,%
+                      testamentum,%
+                      translatio,%
+                    },
+]
+
+% ┌───────────────┐
+% │Quotation marks│
+% └───────────────┘
+
+% Following the Swiss convention for quotation marks,
+% using «…» for quotes and ‹…› for subquotes
+\setuplanguage[la][
+   leftquotation={\leftguillemot\nobreak\quotespace},   % «
+  rightquotation={\quotespace\nobreak\rightguillemot},  % »
+       leftquote={\guilsingleleft\nobreak\quotespace},  % ‹
+      rightquote={\quotespace\nobreak\guilsingleright}, % ›
+]
+
+% ┌──────┐
+% │Macros│
+% └──────┘
+\ctxlua{write_out_macros()}
+
+% Color Definitions
+\definecolor[normal_text_color][black]
+\definecolor[accent_color][darkred]
+\definecolor[verse_number_color][darkred]
+\definecolor[christ_quote_color][darkred]
+\definecolor[obsolete_words_color][darkgray]
+
+% Space definitions
+\define\quotespace{\hairspace}
+\define\versenumberspace{\hairspace}
+
+% ┌────────────────┐
+% │Paragraphs setup│
+% └────────────────┘
+
+% No indentation for paragraphs,
+% instead they are separated by a big space
+\setupwhitespace[big]
+
+% Big tolerance for horizontal whitespace
+\tolerance=8000
+
+% ┌───────────┐
+% │Fonts setup│
+% └───────────┘
+
+% For now I use Latin Modern font,
+% since it is æsthetic and not too wide;
+% GFS Bodoni is also a nice font,
+% but looks good only in Greek
+% \definefontfamily[bodoni][rm][GFS Bodoni]
+
+% ┌───────────────────────────────────────────┐
+% │Unconditional letter and word substitutions│
+% └───────────────────────────────────────────┘
+
+% A dirty hack, since there is no ‘ȳ’ in Latin Modern font
+% Caution: must be above modeset block!
+%\translateinput[ȳ][$\overline{\mathrm{y}}$]
+%\translateinput[Ȳ][$\overline{\mathrm{Y}}$]
+
+\ctxlua{write_out_input_translations("default")}
+
+% ┌──────────────────────┐
+% │Default B5 page layout│
+% └──────────────────────┘
+
+\setuppapersize[B5] % 17.6cm : 25cm
+
+\setuplayout[
+  backspace=3cm,
+  leftedge=0.2cm,
+  leftedgedistance=0.1cm,
+  leftmargin=2.5cm,
+  leftmargindistance=0.2cm,
+  width=13.1cm,
+  rightmargindistance=0.2cm,
+  rightmargin=1cm,
+  rightedgedistance=0.1cm,
+  rightedge=0.2cm,
+  %
+  topspace=1.5cm,
+  top=1cm,
+  topdistance=0.5cm,
+  header=0.5cm,
+  headerdistance=0.5cm,
+  height=middle,
+  footerdistance=0.5cm,
+  footer=0.5cm,
+  bottomdistance=0.5cm,
+  bottom=1cm,
+  %
+]
+\setupheadertexts[margin][\bf\pagenumber][][][\bf\pagenumber]
+\setupheadertexts[text][][\bf\getmarking[book]][][]
+
+\startmodeset
+  % ┌───────────┐
+  % │Paper setup│
+  % └───────────┘
+
+  % Good dimensions for my 4:3 e-ink tablet
+  [tablet_4_3]{
+    \definepapersize[tablet_4_3][
+      width=12cm,
+      height=16cm,
+    ]
+
+    \setuppapersize[tablet_4_3]
+
+    \setuplayout[
+      backspace=1cm,
+      width=middle,
+      margin=0.9cm,
+      margindistance=0.1cm,
+      topspace=0.25cm,
+      header=0.5cm,
+      headerdistance=0.25cm,
+      height=middle,
+      footerdistance=0.25cm,
+      footer=0.5cm,
+      bottomdistance=0cm,
+      bottom=0cm,
+    ]
+
+    % Empty header
+    \setupheadertexts[margin][][][][]
+    \setupheadertexts[text][][][][]
+    % Page numbers in the middle of the footer
+    \setupfootertexts[\bf\pagenumber]
+  }
+
+  % Good dimensions for my 8:5 tablet
+  [tablet_8_5]{
+    \definepapersize[tablet_8_5][
+      width=12cm,
+      height=19.2cm,
+    ]
+
+    \setuppapersize[tablet_8_5]
+
+    \setuplayout[
+      backspace=1cm,
+      width=middle,
+      margin=0.9cm,
+      margindistance=0.1cm,
+      topspace=0.25cm,
+      header=0.5cm,
+      headerdistance=0.25cm,
+      height=middle,
+      footerdistance=0.25cm,
+      footer=0.5cm,
+      bottomdistance=0cm,
+      bottom=0cm,
+    ]
+
+    % Empty header
+    \setupheadertexts[margin][][][][]
+    \setupheadertexts[text][][][][]
+    % Page numbers in the middle of the footer
+    \setupfootertexts[\bf\pagenumber]
+  }
+
+  % Good dimensions for any 16:9 tablet
+  [tablet_16_9]{
+    \definepapersize[tablet_16_9][
+      width=12cm,
+      height=21.333cm,
+    ]
+
+    \setuppapersize[tablet_16_9]
+
+    \setuplayout[
+      backspace=1cm,
+      width=middle,
+      margin=0.9cm,
+      margindistance=0.1cm,
+      topspace=0.25cm,
+      header=0.5cm,
+      headerdistance=0.25cm,
+      height=middle,
+      footerdistance=0.25cm,
+      footer=0.5cm,
+      bottomdistance=0cm,
+      bottom=0cm,
+    ]
+
+    % Empty header
+    \setupheadertexts[margin][][][][]
+    \setupheadertexts[text][][][][]
+    % Page numbers in the middle of the footer
+    \setupfootertexts[\bf\pagenumber]
+  }
+
+% ┌─────────────────────────────┐
+% │Letter and word substitutions│
+% └─────────────────────────────┘
+
+  [ae_oe_ligatures]{
+    % Mediæval convention: ‘(ae, oe, ë) → (æ, œ, e)’;
+    % when ‘(ae, oe)’ and ‘(æ, œ)’ are distinguished,
+    % there is no need for diæresis ‘ë’
+    \ctxlua{
+      write_out_input_translations("ae_oe_ligatures")
+      write_out_input_translations("no_diaeresis")
+    }
+  }
+
+  [no_assimilation]{
+    % No assimilation of letters, e.g. ‘immortalis → inmortalis’
+  }
+
+  [c_to_ch]{
+    % Changing ‘c’ to ‘ch’ in some words,
+    % e.g. ‘pulcer → pulcher’
+    \ctxlua{write_out_input_translations("c_to_ch")}
+  }
+
+  [classical]{
+    % Classical Latin conventions, which cover
+    % etymological hyphenation (patterns at ./lua/lang-classla.lua),
+    % no macrons, no ‘j’ letter, ‘ae, oe’ spelling, etc.
+    \setupbodyfont[lmrm_classical]
+    \translateinput[ji][i]
+    \translateinput[ȳ][y]
+    \translateinput[Ȳ][Y]
+    \ctxlua{
+      write_out_input_translations("i_to_e")
+      write_out_input_translations("no_quum")
+    }
+  }
+
+  [ecclesiastical]{
+    % Ecclesiastical Latin conventions, which cover
+    % Italian hyphenation (provided as default by ConTeXt),
+    % no macrons, ‘j’ is used, ‘æ, œ’ spelling, etc.
+    \setuphyphenation[method=traditional]
+
+    % Default ConTeXt Latin hyphenation does not cover vowels with macrons,
+    % so we explicitly project them to vowels without macrons
+    \definehyphenationfeatures[ignore_macrons_when_hyphenating][characters={āēīōūȳ}]
+    \sethyphenationfeatures[ignore_macrons_when_hyphenating]
+
+    \setuplanguage[la][patterns=la]
+    \setupbodyfont[lmrm_no_macrons]
+    \translateinput[ȳ][y]
+    \translateinput[Ȳ][Y]
+    \ctxlua{
+      write_out_input_translations("ae_oe_ligatures")
+      write_out_input_translations("c_to_ch")
+      write_out_input_translations("gn_to_n")
+      write_out_input_translations("i_to_e")
+      write_out_input_translations("m_to_n")
+      write_out_input_translations("s_to_r")
+    }
+  }
+
+  [emdash_to_endash]{
+  % Changing ‘---’ to ‘--’
+    \ctxlua{write_out_input_translations("emdash_to_endash")}
+  }
+
+  [gn_to_n]{
+  % Changing old-fashioned forms, e.g. ‘gnātus → nātus’
+    \ctxlua{write_out_input_translations("gn_to_n")}
+  }
+
+  [no_h]{
+  % Spelling many words without ‘h’
+    \ctxlua{write_out_input_translations("no_h")}
+  }
+
+  [no_uti]{
+    % Original Castellion’s translation does not use ‘utī’, only ‘ut’,
+    % while I decided to use ‘ut’ before vowels and ‘h’, and ‘utī’ otherwise
+    \ctxlua{write_out_input_translations("no_uti")}
+  }
+
+  [m_to_n]{
+    % Changing ‘m’ to ‘n’is a few words,
+    % e.g. ‘quemdam → quendam’
+    \ctxlua{write_out_input_translations("m_to_n")}
+  }
+
+  [s_to_r]{
+    % Changing ‘(colōr, honōs) → (color, honor)’
+    \ctxlua{write_out_input_translations("s_to_r")}
+  }
+
+  [u_to_i]{
+    % ‘monumentum → monimentum’
+    \ctxlua{write_out_input_translations("u_to_i")}
+  }
+
+  [i_to_e]{
+    % Changing i-forms,
+    % e.g. ‘(clāvim, clāvī, clāvīs) → (clāvem, clāve, clāvēs)’
+    \ctxlua{write_out_input_translations("no_i_forms")}
+  }
+
+  [division]{
+    % Changing words written as one word to separate ones,
+    % e.g. ‘quamobrem → quam ob rem’
+    \ctxlua{write_out_input_translations("division")}
+  }
+
+  [no_macrons]{
+    % Quantity of vowels is usually not indicated,
+    % but I like to keep short and long vowels distinct
+    \translateinput[ȳ][y]
+    \translateinput[Ȳ][Y]
+    \setupbodyfont[lmrm_no_macrons]
+  }
+
+  [no_diaeresis]{
+    % Changing ‘ë → e’
+    \ctxlua{write_out_input_translations("no_diaeresis")}
+  }
+
+  [no_hyphenation]{
+    % Disabling the hyphenation; not recommended!
+    \setuphyphenation[method=none]
+  }
+
+  [no_j]{
+    % In Classical and Contemporary Latin, letter ‘j’ is not used
+    \setupbodyfont[lmrm_no_j]
+  }
+
+  [no_quum]{
+    % In Classical Latin, both the conjunction ‘quum’
+    % and the præposition ‘cum’ are spelled ‘cum’,
+    % but I prefer the archaic distinction
+    % EXCEPTIONS:
+    % Words ‘antīquus’ and ‘equus’ are usually spelled as such,
+    % not as ‘antīcus’ and ‘ecus’
+    \ctxlua{write_out_input_translations("no_quum")}
+  }
+
+  [oxford]{
+    % Ancient convention followed by the Oxford University Press:
+    % it is similar to classical convention, but letters ‘v/U’ are not used
+    \setupbodyfont[lmrm_oxford]
+    \translateinput[ji][i]
+    \translateinput[ȳ][y]
+    \translateinput[Ȳ][Y]
+    \ctxlua{
+      write_out_input_translations("i_to_e")
+      write_out_input_translations("no_quum")
+    }
+  }
+
+  [default]{
+  % Configuration used when no modes are specified;
+  % currently empty
+  }
+\stopmodeset
+
+\startnotmode[no_assimilation]
+  % In Classical Latin when two consonants are next to each other,
+  % the first one very often gets assimilated by the second one;
+  % e.g. ‘(inmortalis, obferre) → (immortalis, offerre)’
+  \ctxlua{write_out_input_translations("assimilation")}
+\stopnotmode
+
+\startnotmode[ecclesiastical]
+  % Using etymological hyphenation in every case
+  % besides ecclesiastical option
+  \setuplanguage[la][patterns=classla]
+\stopnotmode
+
+% ┌──────────────────────────┐
+% │Hyperlinks and interaction│
+% └──────────────────────────┘
+
+\setupinteraction[
+  state=start,
+  color=accent_color,
+]
+
+
+\placebookmarks[book,bookchapter][book][force=yes]
+
+% Turning on table of contents in pdf viewers
+\setupinteractionscreen[option=bookmark]
+
+\definesectionblock[cover][cover]
+\definesectionblock[innertitle][innertitle]
+\definesectionblock[backcover][backcover]
+
+% ┌──────────────┐
+% │Page numbering│
+% └──────────────┘
+
+\setupsectionblock[cover][
+  before={
+    \setcounter[userpage][0]
+    \setuppagenumbering[
+      alternative=singlesided,
+         location=none,
+    ]
+    \setupuserpagenumber[viewerprefix=Cover]
+  },
+]
+
+\setupsectionblock[innertitle][
+  before={
+    \resetcounter[userpage]
+    \setuppagenumbering[
+      alternative=doublesided,
+         location=none,
+    ]
+  },
+]
+
+\setupsectionblock[frontpart][
+  before={
+    \resetcounter[userpage]
+    \setuppagenumbering[
+      alternative=doublesided,
+         location=none,
+    ]
+  },
+]
+
+\setupsectionblock[bodypart][
+  before={
+    \resetcounter[userpage]
+    \setuppagenumbering[
+      alternative=doublesided,
+         location=none,
+    ]
+  },
+]
+
+\setupsectionblock[backpart][
+  before={
+    \setuppagenumbering[
+      alternative=doublesided,
+         location=none,
+    ]
+  },
+]
+
+\setupsectionblock[backcover][
+  before={
+    \setcounter[userpage][0]
+    \setuppagenumbering[
+      alternative=singlesided,
+         location=none,
+    ]
+    \setupuserpagenumber[viewerprefix=BackCover]
+  },
+]
+
+\definestructureconversionset[cover:pagenumber][][characters]
+\definestructureconversionset[backcover:pagenumber][][characters]
+\definestructureconversionset[innertitle:pagenumber][][characters]
+\definestructureconversionset[frontpart:pagenumber][][romannumerals]
+%\definestructureconversionset[bodypart:pagenumber][][arabicnumerals]
+
+\setuplabeltext[section=Caput~]
+
+\setuplines[
+  indenting={yes,small},
+  %option=packed,
+  after={\nobreak},
+]
+
+% ┌───────────────┐
+% │Verse numbering│
+% └───────────────┘
+
+\definecounter[VerseCounter][
+  prefix=no,
+     way=bysection,
+]
+
+% Verse numbering
+\define\vs{
+  \incrementcounter[VerseCounter]%
+  \high{%
+    \tfxx\color[verse_number_color]{%
+      \rawcountervalue[VerseCounter]%
+    }%
+  }\nobreak\hairspace%
+}
+
+% ┌───────────────────────────────┐
+% │Parts of Bible and their styles│
+% └───────────────────────────────┘
+
+\definehead[book][chapter]
+\definehead[bookchapter][section]
+\definehead[introduction][subject]
+\definehead[adnotation][subject]
+
+\setuphead[introduction][
+  beforesection={\startabstract},
+   aftersection={\stopabstract},
+]
+
+\setuphead[adnotation][
+  beforesection={\startabstract},
+   aftersection={\stopabstract},
+]
+
+\setuphead[title][
+   align=middle,
+  number=no,
+    page=yes,
+   style={\lmsc\scd},
+]
+
+\setuphead[book][
+   align=middle,
+  header=empty,
+  number=no,
+    page=yes,
+   style={\lmsc\scd},
+]
+
+\setuphead[bookchapter][
+            align=middle,
+            color=normal_text_color,
+             page=no,
+  sectionsegments=section,
+            style={\lmsc\scd},
+]
+
+\setuphead[introduction][
+  align=middle,
+   page=no,
+  style={\lmsc\scb},
+]
+
+\setuphead[adnotation][
+  align=middle,
+   page=no,
+  style={\lmsc\sca},
+]
+
+\definestartstop[abstract][
+  color=normal_text_color,
+  style={\itx},
+]
+
+% ┌────────────────────────┐
+% │Various quotation styles│
+% └────────────────────────┘
+
+\definedelimitedtext[quote][
+   left={\symbol[leftquotation]},
+  right={\symbol[rightquotation]},
+]
+\definedelimitedtext[Lquote][
+   left={\symbol[leftquotation]},
+  right={},
+]
+\definedelimitedtext[Rquote][
+   left={},
+  right={\symbol[rightquotation]},
+]
+
+\definedelimitedtext[christquote][
+   left={\symbol[leftquotation]},
+  right={\symbol[rightquotation]},
+  color=christ_quote_color,
+]
+% Rather inelegant, but quotations do not play nicely with lines
+\definedelimitedtext[Lchristquote][
+   left={\symbol[leftquotation]},
+  right={},
+  color=christ_quote_color,
+]
+\definedelimitedtext[Rchristquote][
+   left={},
+  right={\symbol[rightquotation]},
+  color=christ_quote_color,
+]
+
+\definedelimitedtext[godquote][
+   left={\symbol[leftquotation]},
+  right={\symbol[rightquotation]},
+]
+\definedelimitedtext[biblequote][
+   left={\symbol[leftquotation]},
+  right={\symbol[rightquotation]},
+  style=italic,
+]
+
+\definedelimitedtext[subquote][
+   left={\symbol[leftquote]},
+  right={\symbol[rightquote]},
+]
+\definedelimitedtext[subchristquote][
+   left={\symbol[leftquote]},
+  right={\symbol[rightquote]},
+  color=christ_quote_color,
+]
+\definedelimitedtext[subbiblequote][
+   left={\symbol[leftquote]},
+  right={\symbol[rightquote]},
+  style=italic,
+]
+
+\definehighlight[bibleallusion][
+  style=italic,
+]
+
+\definehighlight[indirectquote][
+  %style=slanted,
+]
+
+\definehighlight[indirectbiblequote][
+  %style=slanted,
+]
+
+\definehighlight[indirectchristquote][
+  %style=slanted,color=darkred,
+]
+
+\definehighlight[indirectsubquote][
+  %style=slanted,
+]
+
+\definehighlight[num][
+  %style=slanted,
+]
+
+\definehighlight[name][
+  style=slanted,
+]
+
+% For words and sentences which are in Castellio’s translation,
+% but are not in modern Bible editions
+\definehighlight[obsolete][
+  color=obsolete_words_color,
+]
+
+\definehighlight[unclassical][]
+
+% For words added by me
+\definedelimitedtext[added][
+   left={\lbrack},
+  right={\rbrack},
+]
+
+% Title written over Jesus’ cross
+\definehighlight[tit][
+  style=bold,
+]
+
+\definehighlight[explication][
+  %style=italic,
+]
+\definehighlight[implication][
+  %style=italic,
+]
+
+% For Latin word forms which I deem to be dubious
+\definehighlight[dubious][
+  %style=italic,
+]
+
+% ┌───────────────────────┐
+% │Table of contents style│
+% └───────────────────────┘
+
+% Including books of Bible in the table of contents
+\setupcombinedlist[content][list={book}]
+
+\setuplist[
+  alternative=c, % produces lots of dots
+  width=1.75em,
+]
+
+% ┌──────────────────┐
+% │Bibliography style│
+% └──────────────────┘
+
+\setupbtxlist[
+  alternative=c,
+  stopper={.},
+  width=1.75em,
+]
+
+\setupbtx[
+  stopper:initials={.\space}]
+
+\setupbtxlabeltext[la][
+  default:and=\btxcomma\space\nospace,
+  default:Editor={editor},
+  default:Editors={editores},]
+\stopenvironment
+
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: context
+%%% TeX-master: t
+%%% End:

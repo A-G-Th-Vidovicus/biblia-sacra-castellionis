@@ -1,0 +1,59 @@
+<?xml version="2.0" standalone="yes" ?>
+<bibtex>
+  <entry tag="Biblia" category="book">
+    <field name="address">Basilea</field>
+    <field name="author">Castellio, Sebastianus</field>
+    <field name="publisher">Johannes Oporinus</field>
+    <field name="title">Biblia interprete Sebastiano Castellione</field>
+    <field name="year">1551</field>
+  </entry>
+  <entry tag="BibliaSacra" category="book">
+    <field name="address">Lipsia</field>
+    <field name="author">Castellio, Sebastianus</field>
+    <field name="publisher">Thomas Fritsch</field>
+    <field name="title">Biblia Sacra ex Sebastiani Castellionis interpretatione</field>
+    <field name="year">1697</field>
+  </entry>
+  <entry tag="NovaVulgata" category="book">
+    <field name="address">Città del Vaticano</field>
+    <field name="editor">Schick, Eduard</field>
+    <field name="edition">2</field>
+    <field name="isbn">88-209-2163-4</field>
+    <field name="publisher">Libreria Editrice Vaticana</field>
+    <field name="title">Nova Vulgata</field>
+    <field name="year">1998</field>
+  </entry>
+  <entry tag="NA28" category="book">
+    <field name="address">Stuttgart</field>
+    <field name="editor">Nestle, Eberhard and Aland, Kurt</field>
+    <field name="edition">28</field>
+    <field name="isbn">978-3-438-05140-0</field>
+    <field name="publisher">Deutsche Bibelgesellschaft</field>
+    <field name="title">Novum Testamentum Graece</field>
+    <field name="year">2012</field>
+  </entry>
+  <entry tag="deVaan" category="book">
+    <field name="address">Leiden</field>
+    <field name="editor">de Vaan, Michiel Arnoud Cor</field>
+    <field name="isbn">978-90-04-16797-1</field>
+    <field name="publisher">Brill</field>
+    <field name="title">Etymological Dictionary of Latin and the other Italic Languages</field>
+    <field name="year">2008</field>
+  </entry>
+  <entry tag="OLD" category="book">
+    <field name="address">Oxford</field>
+    <field name="editor">Glare, P. G. W.</field>
+    <field name="edition">2</field>
+    <field name="isbn">978-0-19-958031-6</field>
+    <field name="publisher">Oxford University Press</field>
+    <field name="title">Oxford Latin Dictionary</field>
+    <field name="year">2012</field>
+  </entry>
+  <entry tag="Gaffiot" category="book">
+    <field name="author">Gaffiot, Félix</field>
+    <field name="isbn">978-2-9554849-0-6</field>
+    <field name="publisher">Gérard Gréco</field>
+    <field name="title">Dictionnaire illustré latin-français</field>
+    <field name="year">2016</field>
+  </entry>
+</bibtex>
