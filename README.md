@@ -37,12 +37,12 @@ Versio tamen Castellionis illius fragmenti dicit:
 
 Consideremus atque aliud exemplum. In _Nova Vulgata_. Fragmentum Mc 1, 23–24 sonat:
 > Et statim erat in synagoga eorum homo in spiritu immundo; et exclamavit dicens:
-> "Quid nobis et tibi, Iesu Nazarene? Venisti perdere nos? Scio qui sis: Sanctus Dei".
+> «Quid nobis et tibi, Iesu Nazarene? Venisti perdere nos? Scio qui sis: Sanctus Dei».
 
 Hic Graecum verbum _synagoga_ adest, ac coniunctio _venire perdere_, quae tardam ad Latinitatem spectat. Versio Castellionis est:
 
 > Erat autem in eorum collegio homo impurum habens spiritum, qui sic exclamavit:
-> Heu, quid tibi nobiscum rei est, Iesu Nazarene? Venisti perditum nos? Scio te quis sis: Sanctus Dei.
+> «Heu, quid tibi nobiscum rei est, Iesu Nazarene? Venisti perditum nos? Scio te quis sis: Sanctus Dei».
 
 Hic Latinum verbum _collegium_ praesens est, ac constructio _venire perditum_, hoc est, supinum in accusativo.
 
@@ -55,5 +55,20 @@ efficit, ut quaevis pagina huius editionis formosa bellaque videatur.
 Mea interest varios adesse modos compilationis diversis pro dispositivis electronicis — tum parvis, tum grandibus.
 Varii atque adsunt optiones quae ad orthographiam spectant, quae describuntur infra.
 
-Modus praedefinitus documentum producit, ubi longi vocales signo ◌̄ indicantur, littera _j_ apparet, ac duae consonantes assimilantur ad invicem, e.g. _immortalis_ pro _inmortalis_.
-Hic modus plane context bible.tex invocatur ex terminale 
+*Modus praedefinitus* documentum producit, ubi longi vocales signo ◌̄ indicantur, littera _j_ apparet, ac duae consonantes assimilantur ad invicem, e.g. _immortalis_ pro _inmortalis_, _illuminatio_ pro _inluminatio_, etc.
+Praedefinitae dimensiones chartae sunt _B5_, normas Europeas secus.
+Hic modus plane ```context bible.tex``` invocatur ex terminale aperto loco ubi documentum bible.tex inest.
+
+*Modus classicus* efficit, ut quantitas vocalium not indicetur nec littera _j_ appareat; invocatur  ```context --mode=classical bible.tex```.
+
+*Modus Oxoniensis* similis praecedentis est, sed litteras _v_ et _U_ supprimit; invocatur ```context --mode=oxford bible.tex```.
+
+*Modus ecclesiasticus* efficit, ut quantitas vocalium not indicetur, litter _j_ visibilis sit, et ligaturae _ae_ et _oe_ utantur. Hic modus lineas frangit textus Italianae linguae regulas secus, e.g. _a‧scen‧de‧re_ pro _as‧cen‧de‧re_. Invocatur ```context --mode=ecclesiastical bible.tex```.
+
+Varii modi minores atque adsunt, sed nunc non describuntur hoc loco.
+
+
+
+
+
+
