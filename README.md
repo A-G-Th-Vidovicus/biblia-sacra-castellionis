@@ -7,7 +7,7 @@ Omnibus visitantibus repositorium meum _Bibliorum Sacrorum ex Sebastiani Castell
 Brevi: intentio mea quae ad hunc proiectum fingendum spectat est
 _omnes libros rescribere Bibliorum Sacrorum ex Sebastiani Castellionis interpretatione moderno cum systemate ConTeXt, quantitate vocalium omnium indicata_.
 
-Nostris temporibus, variae editiones operis Castellionis accessibiles Interreti sunt, — e.g. apud Google Books —
+Nostris temporibus, variae editiones operis Castellionis accessibiles Interreti sunt, — e.g. apud _Google Books_ —
 sed illas modernis lectoribus difficiles esse censeo multas ob causas.
 Primum, scriptae sunt antiquis litteris parvae qualitatis, quae nonnumquam illegibiles sunt,
 e.g. antiqua littera _ſ_ utebatur, quae similis _f_ sit; aliqui loci vix legibiles sunt ob plus quam quattuor saeculorum passum.
@@ -70,11 +70,15 @@ Credo nostris temporibus hoc modo maioritatem librorum Latinorum imprimi. Invoca
 
 Varii modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum mihi tamen est quattuor genera chartae disponibiles esse: _B5_, _4:3_, _8:5_, et _16:9_ — tres ultimi idonei sint apud varias tabulas electronicas. Ut dimensiones chartae mutentur, invocamus e.g. ``context --mode=tablet_4_3 bible.tex``.
 
-Varii modi compilationis coniuncti possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classica cum orthographia pro tabulis in _4:3_ proportione.
+Varii modi compilationis coniuncti possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classicam orthographiam secus, pro tabulis in _4:3_ proportione.
 
 ## Perfecta perficiendaque
 
 ## Errorem animadvertis? Scribe mihi notitam!
+
+# Bibliographia et fontes
+
+## Pauca de me ipsum
 
 
 
