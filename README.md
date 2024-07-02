@@ -162,7 +162,7 @@ Infra posui aliquos fontes et situs, qui magnopere prosint mihi ad meam operam p
 6. P. G. W. Glare (editor), *Oxford Latin Dictionary* (2ᵃ ed.), Oxford University Press, Oxford, 2012;
 7. F. Gaffiot, [*Dictionnaire illustré latin-français*](https://archive.org/details/Gaffiot2016), Gérard Gréco, 2016;
 8. Pragma ADE, [*ConTeXt LMTX*](https://www.pragma-ade.nl/install.htm);
-9. Johan Winge, [*A Latin Macronizer*](https://alatius.com/macronizer/);
+9. [J. Winge](https://github.com/Alatius), [*A Latin Macronizer*](https://alatius.com/macronizer/);
 10. The Gregorio Project, [*hyphen-la*](https://github.com/gregorio-project/hyphen-la);
 11. S. Castellio, [*Biblia interprete Sebastiano Castellione*](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione), Vicifons;
 12. Blue Letter Bible Institute, [*Blue Letter Bible*](https://www.blueletterbible.org).
