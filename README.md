@@ -20,7 +20,7 @@ Orthographicos errores corrigere studeo — [*Le Gaffiot*](https://gaffiot.fr/) 
 
 Cum [*Vulgata*](https://vulsearch.sourceforge.net/html/) sancti Hieronymi Stridonensis praeclara sit ac Catholica ab Ecclesia approbata, translatio eius postclassica et vulgaris est, quod saepe erroribus abusibusque linguisticis manifestetur.
 Simili modo, [*Nova Vulgata*](https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html), recentioribus annis divulgata a Vaticano, vix melior est, modum scribendi Hieronymi conservans eius cum lapsibus.
-Latinitas tamen Castellionis alta, classica, pulcraque est (cf. *Iudicia doctorum virorum de Bibliis Castellionis* in eodem libro) —
+Latinitas tamen Castellionis alta, classica, pulcraque est (cf. *Iudicia doctorum virorum de Bibliis Castellionis* eodem in libro) —
 Castellio usus constructionibus classicis est ac cavit, ne multa Graeca Hebraecave verba introducerentur bona sine ratione.
 
 ### Exempla
@@ -56,7 +56,7 @@ Sincere, ista me paupertas dolet!
 ## Opera scripta in $\rm Con\TeX t$
 
 Usus systemate $\rm Con\TeX t$ — quod versio celeberrimi systematos $\rm \TeX$ est — efficit, ut quaevis pagina huius editionis formosa bellaque videatur.
-Editio typica mei rescripti compilatur cum $\rm Con\TeX t\ LMTX\ 2024.06.21$.
+Editio typica mei rescripti compilatur cum $\rm Con\TeX t$ LMTX 2024.06.21.
 
 Mea interest varios adesse modos compilationis diversis pro dispositivis electronicis — tum parvis, tum grandibus.
 Varii atque adsunt optiones quae ad orthographiam spectant, quae describuntur infra.
@@ -74,7 +74,7 @@ Credo nostris temporibus hoc modo maioritatem librorum Latinorum imprimi. Invoca
 
 **Modus ecclesiasticus** efficit, ut quantitas vocalium not indicetur, litterae *j* et *J* visibiles sint, et ligaturae *æ* et *œ* utantur. Hoc modo autem $\rm Con\TeX t$ lineas frangit textus regulas secus Italianae linguae, e.g. *a‧scen‧de‧re* pro *as‧cen‧de‧re*. Invocatur ``context --mode=ecclesiastical bible.tex``.
 
-Varii modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum mihi tamen est quattuor nunc genera chartae disponibiles esse: *B5*, *4:3*, *8:5*, et *16:9* — tres ultimi idonei sint apud varias tabulas electronicas. Uti dimensiones chartae mutentur, invocamus e.g. ``context --mode=tablet_4_3 bible.tex``.
+Varii modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum tamen mihi est quattuor nunc genera chartae utenda esse: *B5*, *4:3*, *8:5*, et *16:9* — tres ultimi idonei sint varias apud tabulas electronicas. Uti dimensiones chartae mutentur, invocamus e.g. ``context --mode=tablet_4_3 bible.tex``.
 
 Varii modi compilationis coniuncti possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classicam orthographiam secus, pro tabulis in *4:3* proportione.
 Plura invenienda sunt in ``configuration.tex`` documento, hieraticis linguis $\rm Lua$ ac $\rm\TeX$ scripto. Commentarii aliquis in locis Anglico sermone scripsi.
@@ -146,7 +146,7 @@ Si quemvis lapsum animadvertisti, igonosce mihi! Te posco, *Egregie Lector*, uti
 
 ## Cui gratias ago?
 
-Gratias ago variis hominibus coetisque hominum. Primum, quod est perspicuum, gratias ago magno *Sebastiano* ipso *Castellioni* pro eius egregia translatione Bibliorum Sacrorum. Deinde, *Donaldo Knuth*, creatori systematos $\rm\TeX$, ac omnibus qui recentius systema $\rm Con\TeX t$ perficient. Deinde, omnibus qui lexica Latina scribuntur, praesertim *Felici Gaffiot* ac *professoribus Oxoniensibus*. Denique, gratias meas erga *the Gregorio Project*, quoniam creavit classicae exemplaria syllabizationis verborum Latinorum (Anglice *hyphenation patterns*). Salutem atque meis amicis amicabusque dico, qui semper me ad operam meam continuandam adhortentur.
+Gratias ago variis hominibus coetisque hominum. Primum, quod est perspicuum, gratias ago magno *Sebastiano* ipso *Castellioni* pro eius egregia translatione Bibliorum Sacrorum. Deinde, *Donaldo Ervino Knuth*, creatori systematos $\rm\TeX$, ac omnibus qui recentius systema $\rm Con\TeX t$ perficient. Deinde, omnibus qui lexica Latina scribuntur, praesertim *Felici Gaffiot* ac *Oxoniensibus professoribus*. Denique, gratias meas erga [*the Gregorio Project*](https://gregorio-project.github.io), quoniam creavere classicae exemplaria syllabizationis verborum Latinorum (Anglice *hyphenation patterns*). Salutem atque meis amicis amicabusque dico, qui semper me ad operam meam continuandam adhortentur.
 
 # Bibliographia et fontes
 
@@ -169,6 +169,6 @@ Infra posui aliquos fontes et situs, qui magnopere prosint mihi ad meam operam p
 
 ## Pauca de me ipso
 
-Ego, $\color{green} A.\thinspace G.\thinspace Th.\thinspace Vidovicus$, Polono 🇵🇱 genere Cracoviaeque degens, mathematicus sum et admirator historiae, culturae, classicae linguaeque Latinae restituendae.
-Aliquis in locis Interreti vocor $\color{green}\bf Anulus\ Smaragdinus$, quod nomen est atque [**mei canali apud YouTube**](https://www.youtube.com/@AnulusSmaragdinus),
+Ego, $\color{green} A.\thinspace G.\thinspace Th.\thinspace Vidovicus$, Polono 🇵🇱 genere Cracoviaeque degens, mathematicus sum et admirator historiae, culturae classicae, linguaeque Latinae restituendae.
+Aliquis in locis Interreti $\color{green}\bf Anulus\ Smaragdinus$ vocor, quod nomen est atque [**mei canali apud YouTube**](https://www.youtube.com/@AnulusSmaragdinus),
 ubi Anglico sermone scientiam meam divulgo ac doctrinam publico pro bono.
