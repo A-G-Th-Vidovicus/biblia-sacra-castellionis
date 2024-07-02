@@ -6,3 +6,10 @@ parts/.DS_Store
 parts/covers/.DS_Store
 
 !.gitignore
+parts/preface/.DS_Store
+parts/new_testament/revelation/.DS_Store
+parts/new_testament/gospels/.DS_Store
+parts/new_testament/epistles/pauline/.DS_Store
+parts/new_testament/epistles/catholic/.DS_Store
+parts/new_testament/epistles/.DS_Store
+parts/new_testament/.DS_Store
