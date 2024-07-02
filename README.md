@@ -139,11 +139,11 @@ Caveat tamen Lector: *libros Castellionis rescribo otioso meo tempore, ac pollic
 
 - [x] Apocalypsis Iohannis.
 
-## Errorem conspexisti? Scribito mihi notitam!
+## Errorem conspexisti? Scribito mihi notitiam!
 
 Quamquam opus rescribendi librorum Castellionis diligenter et multa cum cura perficio, errores aliqui textum certo aliquis in locis corrumpunt.
 Mea refert ut errores eliminentur utque opus meum prosit discipulis Bibliorum Sacrorum Latinaeve linguae.
-Si quemvis lapsum animadvertisti, igonosce mihi! Te rogo, *Egregie Lector*, uti scribas mihi notitam vel hic apud GitHub vel apud meum cursum electronicum:
+Si quemvis lapsum animadvertisti, igonosce mihi! Te rogo, *Egregie Lector*, uti scribas mihi notitiam vel hic apud GitHub vel apud meum cursum electronicum:
 ``AnulusSmaragdinus@protonmail.com``. Linguae mihi gnotae: Latina, Italiana, Castellana, Anglica, et Polona.
 
 ## Cui gratias ago?
