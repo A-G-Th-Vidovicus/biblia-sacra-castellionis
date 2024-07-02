@@ -1,3 +1,6 @@
 .*
 .DS
 !.gitignore
+.DS_Store
+/configuration
+/images
