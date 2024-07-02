@@ -1,4 +1,4 @@
-# Biblia Sacra ex Sebastiani Castellionis interpretatione: Editio Contemporanea
+# Biblia Sacra ex Sebastiani Castellionis interpretatione: *Editio Contemporanea*
 
 Omnibus visitantibus repositorium meum *Bibliorum Sacrorum ex Sebastiani Castellionis interpretatione*: **salutem!**
 
@@ -38,7 +38,7 @@ Versio tamen Castellionis illius fragmenti dicit:
 > Si confitemur peccata nostra, ille ita fidelis et iustus est, ut nobis peccatorum veniam det nosque ab omni culpa expiet.
 > Si nos peccasse negamus, mendacem facimus eum, nec est in nobis eius sermo.
 
-Consideremus atque aliud exemplum. *Nova* in *Vulgata*. Fragmentum *Mc 1, 23–24* sonat:
+Consideremus atque alterum exemplum. *Nova* in *Vulgata* fragmentum *Mc 1, 23–24* sonat:
 > Et statim erat in synagoga eorum homo in spiritu immundo; et exclamavit dicens:
 > «Quid nobis et tibi, Iesu Nazarene? Venisti perdere nos? Scio qui sis: Sanctus Dei».
 
@@ -79,9 +79,20 @@ Varii modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum mi
 Varii modi compilationis coniuncti possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classicam orthographiam secus, pro tabulis in *4:3* proportione.
 Plura invenienda sunt in ``configuration.tex`` documento, hieraticis linguis $\rm Lua$ ac $\rm\TeX$ scripto. Commentarii aliquis in locis Anglico sermone scripsi.
 
+### Exemplum
+
+Intueamur fragmentum *Iac 4, 12*. Modo praedefinito id sonat:
+> Ūnus est lēgislātor atque jūdex, quī et servāre potest et perdere. Tū vērō quis es, quī alterum damnās?
+
+Modo classico ecclesiasticoque:
+> Unus est legislator atque iudex, qui et servare potest et perdere. Tu vero quis es, qui alterum damnas?
+
+Modo Oxoniensi:
+> Vnus est legislator atque iudex, qui et seruare potest et perdere. Tu uero quis es, qui alterum damnas?
+
 ## Perfecta perficiendaque
 
-Rescribere libros Bibliorum Sacrorum longum tempus consumat, praesertim cum originale versione quantitas vocalium non indiceretur — meo studio, lexicis consultatis ac [*A Latin Macronizer*](https://alatius.com/macronizer/) situ , quantitatem indico.
+Rescribere libros Bibliorum Sacrorum longum tempus consumat, praesertim cum originale versione quantitas vocalium non indiceretur — meo studio, lexicis consultatis ac [*A Latin Macronizer*](https://alatius.com/macronizer/) situ, quantitatem indico.
 Igitur exspecto multos annos praeterituros esse priusquam tota Biblia rescribam. Primum perficere partes Novi Foederis mihi est, propterea quod id brevius Vetere Foedere est.
 Caveat tamen Lector: *libros Castellionis rescribo otioso meo tempore, ac polliceri nolo et nequeo totam meam operam umquam perfectam fore!*
 
