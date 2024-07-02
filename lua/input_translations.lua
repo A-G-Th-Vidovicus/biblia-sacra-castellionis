@@ -141,6 +141,10 @@ local input_translations_table = {
     {"indignāt", "indignāt"},
     {"prōgnāt", "prōgnāt"},
   },
+  ["i_to_e_in_acc_plur"] = {
+    {"|īs", "ēs"},
+    {"||īs", "ēs"},
+  },
   ["i_to_e"] = {
     {"|īs", "ēs"},
     {"||īs", "ēs"},

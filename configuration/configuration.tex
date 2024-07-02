@@ -343,7 +343,7 @@
     \translateinput[ȳ][y]
     \translateinput[Ȳ][Y]
     \ctxlua{
-      write_out_input_translations("i_to_e")
+      write_out_input_translations("i_to_e_in_acc_plur")
       write_out_input_translations("no_quum")
     }
   }
@@ -367,7 +367,7 @@
       write_out_input_translations("ae_oe_ligatures")
       write_out_input_translations("c_to_ch")
       write_out_input_translations("gn_to_n")
-      write_out_input_translations("i_to_e")
+      write_out_input_translations("i_to_e_in_acc_plur")
       write_out_input_translations("m_to_n")
       write_out_input_translations("s_to_r")
     }
@@ -413,7 +413,12 @@
   [i_to_e]{
     % Changing i-forms,
     % e.g. ‘(clāvim, clāvī, clāvīs) → (clāvem, clāve, clāvēs)’
-    \ctxlua{write_out_input_translations("no_i_forms")}
+    \ctxlua{write_out_input_translations("i_to_e")}
+  }
+
+  [i_to_e_in_acc_plur]{
+    % Changing i-forms in accusative plural, e.g. clāvīs → clāvēs
+    \ctxlua{write_out_input_translations("i_to_e_in_acc_plur")}
   }
 
   [division]{
@@ -463,7 +468,7 @@
     \translateinput[ȳ][y]
     \translateinput[Ȳ][Y]
     \ctxlua{
-      write_out_input_translations("i_to_e")
+      write_out_input_translations("i_to_e_in_acc_plur")
       write_out_input_translations("no_quum")
     }
   }
