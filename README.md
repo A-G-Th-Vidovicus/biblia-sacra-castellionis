@@ -130,12 +130,12 @@ Caveat tamen Lector: *libros Castellionis rescribo otioso meo tempore, ac pollic
   1. [x] epistola Iacobi,
   2. [ ] epistola prima Petri,
   3. [ ] epistola altera Petri,
-  4. [x] epistola prima Iohanni,
-  5. [x] epistola altera Iohanni,
-  6. [x] epistola tertia Iohanni,
+  4. [x] epistola prima Iohannis,
+  5. [x] epistola altera Iohannis,
+  6. [x] epistola tertia Iohannis,
   7. [x] epistola Iudae;
 
-- [x] Apocalypsis Iohanni.
+- [x] Apocalypsis Iohannis.
 
 ## Errorem conspexisti? Scribito mihi notitam!
 
