@@ -84,7 +84,10 @@ Plura invenienda sunt in ``configuration.tex`` documento, hieraticis linguis $\r
 Intueamur fragmentum *Iac 4, 12*. Modo praedefinito id sonat:
 > Ūnus est lēgislātor atque jūdex, quī et servāre potest et perdere. Tū vērō quis es, quī alterum damnās?
 
-Modo classico ecclesiasticoque:
+Modo ecclesiastico:
+> Unus est legislator atque judex, qui et servare potest et perdere. Tu vero quis es, qui alterum damnas?
+
+Modo classico:
 > Unus est legislator atque iudex, qui et servare potest et perdere. Tu vero quis es, qui alterum damnas?
 
 Modo Oxoniensi:
