@@ -52,8 +52,9 @@ Sincere, ista me paupertas dolet!
 
 ## Opera scripta in ConTeXt
 
-Usus systemate ConTeXt — quod versio celeberrimi systematos TeX est —
-efficit, ut quaevis pagina huius editionis formosa bellaque videatur.
+Usus systemate ConTeXt — quod versio celeberrimi systematos TeX est — efficit, ut quaevis pagina huius editionis formosa bellaque videatur.
+Editio typica mei rescripti compilatur cum ConTeXt LMTX 2024.06.21 — situs ubi illud systema inveniri potest in bibliographia posui.
+
 Mea interest varios adesse modos compilationis diversis pro dispositivis electronicis — tum parvis, tum grandibus.
 Varii atque adsunt optiones quae ad orthographiam spectant, quae describuntur infra.
 
@@ -74,11 +75,40 @@ Varii modi compilationis coniuncti possunt, e.g. ``context --mode=classical,tabl
 
 ## Perfecta perficiendaque
 
+Rescribere libros Bibliorum Sacrorum longum tempus consumat, praesertim quum originale versione quantitas vocalium non indiceretur — meo studio, lexicis consultatis, quantitatem indico.
+Igitur exspecto multos annos praeterituros esse priusquam tota Biblia rescribam. Primum perficere partes Novi Foederis volo, propterea quod id brevius Vetere Foedere est.
+
+Evangelia:
+1. secundum Matthaeum,
+2. secundum Marcum,
+3. secundum Lucam,
+4. secundum Iohannem;
+
+Acta apostolorum;
+
+Epistolae catholicae
+1. epistola Iacobi,
+2. epistola prima Petri,
+3. epistola altera Petri,
+4. epistola prima Iohanni,
+5. epistola altera Iohanni,
+6. epistola tertia Iohanni,
+7. epistola Iudae;
+
+Apocalypsis Iohanni.
+
 ## Errorem animadvertis? Scribe mihi notitam!
+
+Quamquam opus rescribendi librorum Castellionis diligenter et multa cum cura perficio, errores aliqui certo aliquis in locis textum corrumpunt.
+Si quemvis lapsum animadvertisti, te posco, egregie lector, uti scribas mihi notitam vel apud GitHub vel apud meum cursum electronicum
+``AnulusSmaragdinus@protonmail.com``. Linguae notae mihi sunt: Latina, Italiana, Castellana, Anglica, et Polona.
 
 # Bibliographia et fontes
 
 ## Pauca de me ipsum
+
+Ego, A. G. Th. Vidovicus, Polono genere, mathematicus sum et amator historiae classicae linguaeque Latinae restituendae.
+Aliquis in locis vocor *Anulus Smaragdinus*, quod nomen est atque mei canali apud YouTube, ubi Anglico sermone scientiam meam divulgo pro publico bono.
 
 
 
