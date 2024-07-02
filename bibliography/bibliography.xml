@@ -34,7 +34,7 @@
   </entry>
   <entry tag="deVaan" category="book">
     <field name="address">Leiden</field>
-    <field name="editor">de Vaan, Michiel Arnoud Cor</field>
+    <field name="author">de Vaan, Michiel Arnoud Cor</field>
     <field name="isbn">978-90-04-16797-1</field>
     <field name="publisher">Brill</field>
     <field name="title">Etymological Dictionary of Latin and the other Italic Languages</field>
