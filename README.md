@@ -5,15 +5,15 @@ Omnibus visitantibus repositorium meum *Bibliorum Sacrorum ex Sebastiani Castell
 ## Intentiones rationesque huius proiecti
 
 Brevi: intentio mea quae ad hunc proiectum fingendum spectat est
-*omnes libros rescribere Bibliorum Sacrorum ex Sebastiani Castellionis interpretatione moderno cum systemate* $Con\TeX t$_, quantitate vocalium omnium indicata_.
+*omnes libros rescribere Bibliorum Sacrorum ex Sebastiani Castellionis interpretatione moderno cum systemate* $\rm Con\TeX t$_, quantitate vocalium omnium indicata_.
 
 Nostris temporibus, variae editiones operis Castellionis accessibiles Interreti sunt, — e.g. apud *Google Books* aut *Internet Archive* —
 sed illas modernis lectoribus difficiles esse censeo multas ob causas.
 Primum, scriptae sunt antiquis litteris parvae qualitatis, quae nonnumquam illegibiles sunt,
 e.g. antiqua littera *ſ* (*s longa*) utebatur, quae similis *f* sit; aliqui loci vix legibiles sunt ob plus quam quattuor saeculorum passum.
 Deinde, quibusdam in editiones versionis Castellionis multae abbreviationes inveniuntur, e.g. *patreq́* pro *patreque*, *vesperà* pro *vesperam*, *filiorŭ* pro *filiorum*, etc.
-Quae clarae erant lectori XVI saeculo, arcanae etiam videntur lectori nostro saeculo — praesertim lectori, qui Latinae haud peritus est linguae.
-Denique, librum Castellionis publicatum est XVI saeculo, cum multi verbi scriberentur haud recte, e.g. *coelum* pro *caelum*, *coena* pro *cena*, etc.
+Quae clarae erant lectori xᴠɪ saeculo, arcanae etiam videntur lectori nostro saeculo — praesertim lectori, qui Latinae haud peritus est linguae.
+Denique, librum Castellionis publicatum est xᴠɪ saeculo, cum multi verbi scriberentur haud recte, e.g. *coelum* pro *caelum*, *coena* pro *cena*, *arena* pro *harena*, etc.
 Orthographicos errores corrigere studeo — [*Le Gaffiot*](https://gaffiot.fr/) et *Oxford Latin Dictionary* lexica magnopere mihi prosunt.
 
 ## Cur versio Castellionis mihi tam placet?
