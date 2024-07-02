@@ -25,7 +25,7 @@ Castellio usus constructionibus classicis est ac cavit, ne multa Graeca Hebraeca
 
 ### Exempla
 
-Ecce exemplum: *Nova* in *Vulgata* fragmentum *1 Io 1, 8–10* sonat:
+Ecce exemplum. *Nova* in *Vulgata* fragmentum *1 Io 1, 8–10* sonat:
 
 > Si dixerimus quoniam peccatum non habemus, nosmetipsos seducimus, et veritas in nobis non est.
 > Si confitemur peccata nostra, fidelis est et iustus, ut remittat nobis peccata et emundet nos ab omni iniustitia.
@@ -73,6 +73,8 @@ Credo nostris temporibus hoc modo maioritatem librorum Latinorum imprimi. Invoca
 **Modus Oxoniensis** similis praecedentis est, sed litteras *v* et *U* supprimit. Nomen trahitur ex eo, quod *Oxford University Press* suis in Latinis publicationibus litteras *u* et *v* non discernit. Invocatur ``context --mode=oxford bible.tex``.
 
 **Modus ecclesiasticus** efficit, ut quantitas vocalium not indicetur, litterae *j* et *J* visibiles sint, et ligaturae *æ* et *œ* utantur. Hoc modo autem $\rm Con\TeX t$ lineas frangit textus regulas secus Italianae linguae, e.g. *a‧scen‧de‧re* pro *as‧cen‧de‧re*. Invocatur ``context --mode=ecclesiastical bible.tex``.
+
+Si non habes, mi Lector, systema $\rm Con\TeX t$ tuo in computatro installatum, i visum catalogon ``pdf``, ubi quattuor documenta exemplaria insunt.
 
 Varii modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum tamen mihi est quattuor nunc genera chartae utenda esse: *B5*, *4:3*, *8:5*, et *16:9* — tres ultimi idonei sint varias apud tabulas electronicas. Uti dimensiones chartae mutentur, invocamus e.g. ``context --mode=tablet_4_3 bible.tex``.
 
@@ -141,7 +143,7 @@ Caveat tamen Lector: *libros Castellionis rescribo otioso meo tempore, ac pollic
 
 Quamquam opus rescribendi librorum Castellionis diligenter et multa cum cura perficio, errores aliqui textum certo aliquis in locis corrumpunt.
 Mea refert ut errores eliminentur utque opus meum prosit discipulis Bibliorum Sacrorum Latinaeve linguae.
-Si quemvis lapsum animadvertisti, igonosce mihi! Te posco, *Egregie Lector*, uti scribas mihi notitam vel hic apud GitHub vel apud meum cursum electronicum:
+Si quemvis lapsum animadvertisti, igonosce mihi! Te rogo, *Egregie Lector*, uti scribas mihi notitam vel hic apud GitHub vel apud meum cursum electronicum:
 ``AnulusSmaragdinus@protonmail.com``. Linguae mihi gnotae: Latina, Italiana, Castellana, Anglica, et Polona.
 
 ## Cui gratias ago?
@@ -170,5 +172,5 @@ Infra posui aliquos fontes et situs, qui magnopere prosint mihi ad meam operam p
 ## Pauca de me ipso
 
 Ego, $\color{green} A.\thinspace G.\thinspace Th.\thinspace Vidovicus$, Polono 🇵🇱 genere Cracoviaeque degens, mathematicus sum et admirator historiae, culturae classicae, linguaeque Latinae restituendae.
-Aliquis in locis Interreti $\color{green}\bf Anulus\ Smaragdinus$ vocor, quod nomen est atque [**mei canali apud YouTube**](https://www.youtube.com/@AnulusSmaragdinus),
+Aliquis in locis Interreti $\color{green}\bf Anulus\ Smaragdinus$ vocor, quod nomen est atque [**canali mei apud YouTube**](https://www.youtube.com/@AnulusSmaragdinus),
 ubi Anglico sermone scientiam meam divulgo ac doctrinam publico pro bono.
