@@ -172,5 +172,5 @@ Infra posui aliquos fontes et situs, qui magnopere prosint mihi ad meam operam p
 ## Pauca de me ipso
 
 Ego, $\color{green} A.\thinspace G.\thinspace Th.\thinspace Vidovicus$, Polono 🇵🇱 genere Cracoviaeque degens, mathematicus sum et admirator historiae, culturae classicae, linguaeque Latinae restituendae.
-Aliquis in locis Interreti $\color{green}\bf Anulus\ Smaragdinus$ vocor, quod nomen est atque [**canali mei apud YouTube**](https://www.youtube.com/@AnulusSmaragdinus),
+Aliquis in locis Interretis $\color{green}\bf Anulus\ Smaragdinus$ vocor, quod nomen est atque [**canali mei apud YouTube**](https://www.youtube.com/@AnulusSmaragdinus),
 ubi Anglico sermone scientiam meam divulgo ac doctrinam publico pro bono.
