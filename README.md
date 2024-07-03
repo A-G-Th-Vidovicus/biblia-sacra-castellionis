@@ -67,7 +67,7 @@ Varii atque adsunt optiones, quae ad orthographiam spectant; hae brevi infra des
 
 ### Modi compilationis
 
-**Modus praedefinitus** documentum producit, ubi longi vocales signo ◌̄ indicantur, littera *j* apparet, ac duae consonantes assimilantur ad invicem, e.g. *immortalis* pro *inmortalis*, *sufferre* pro *subferre*, *aggredi* pro *adgredi*, etc.
+**Modus praedefinitus** documentum producit, ubi longi vocales signo [◌̄](https://la.wikipedia.org/wiki/Macron) indicantur, littera *j* apparet, ac duae consonantes assimilantur ad invicem, e.g. *immortalis* pro *inmortalis*, *sufferre* pro *subferre*, *aggredi* pro *adgredi*, etc.
 Praedefinitae dimensiones chartae sunt *B5*, normas Europeas secus.
 Hic modus plane ``context bible.tex`` invocatur ex terminale aperto catalogo, ubi documentum ``bible.tex`` inest.
 
