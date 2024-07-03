@@ -20,7 +20,7 @@ Orthographicos errores corrigere studeo — [*Le Gaffiot*](https://gaffiot.fr/) 
 
 Cum [*Vulgata*](https://vulsearch.sourceforge.net/html/) sancti Hieronymi Stridonensis praeclara sit ac Catholica ab Ecclesia approbata, translatio eius postclassica et vulgaris est, quod saepe erroribus abusibusque linguisticis manifestetur.
 Simili modo, [*Nova Vulgata*](https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html), recentioribus annis divulgata a Vaticano, vix melior est, modum scribendi Hieronymi conservans eius cum lapsibus.
-Latinitas tamen Castellionis alta, classica, pulcraque est (cf. *Iudicia doctorum virorum de Bibliis Castellionis* in [2](item-two)) —
+Latinitas tamen Castellionis alta, classica, pulcraque est (cf. *Iudicia doctorum virorum de Bibliis Castellionis* in [[2](#item-two)]) —
 Castellio usus constructionibus classicis est ac cavit, ne multa Graeca Hebraecave verba introducerentur bona sine ratione.
 
 ### Exempla
