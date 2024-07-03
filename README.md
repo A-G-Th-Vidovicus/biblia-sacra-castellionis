@@ -155,17 +155,19 @@ Gratias ago variis hominibus coetisque hominum. Primum, quod est perspicuum, gra
 Infra posui aliquos fontes et situs, qui magnopere prosint mihi ad meam operam perficiendam. <mark>Omnis situs Interretialis Kalendis Iuliis anno ᴍᴍxxɪᴠ accessibilis est</mark>.
 
 1. S. Castellio, [*Biblia interprete Sebastiano Castellione*](https://books.google.pl/books?id=1Z1kAAAAcAAJ&dq=editions%3ALCCN2003586150&hl=pl&source=gbs_book_other_versions), Johannes Oporinus, Basilea, 1551;
-2. S. Castellio, [*Biblia Sacra ex Sebastiani Castellionis interpretatione*](https://www.google.pl/books/edition/Biblia_Sacra/xmlCAAAAcAAJ?hl=pl&gbpv=0), Thomas Fritsch, Lipsia, 1697;<a id="item-two"></a>
-3. E. Schick (editor), [*Nova Vulgata*](https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html) (2ᵃ ed.), Libreria Editrice Vaticana, Città del Vaticano, 1998;
-4. E. Nestle, K. Aland (editores), *Novum Testamentum Graece* (28ᵃ ed.), Deutsche Bibelgesellschaft, Stuttgart, 2012;
-5. M. A. C. de Vaan, *Etymological Dictionary of Latin and the other Italic Languages*, Brill, Leiden, 2008;
-6. P. G. W. Glare (editor), *Oxford Latin Dictionary* (2ᵃ ed.), Oxford University Press, Oxford, 2012;
-7. F. Gaffiot, [*Dictionnaire illustré latin-français*](https://archive.org/details/Gaffiot2016), Gérard Gréco, 2016;
-8. Pragma ADE, [*ConTeXt LMTX*](https://www.pragma-ade.nl/install.htm);
-9. [J. Winge](https://github.com/Alatius), [*A Latin Macronizer*](https://alatius.com/macronizer/);
-10. The Gregorio Project, [*hyphen-la*](https://github.com/gregorio-project/hyphen-la);
-11. S. Castellio, [*Biblia interprete Sebastiano Castellione*](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione), Vicifons;
-12. Blue Letter Bible Institute, [*Blue Letter Bible*](https://www.blueletterbible.org).
+2. S. Castellio, [*Biblia Sacra ex Sebastiani Castellionis interpretatione*](https://www.google.pl/books/edition/Biblia_Sacra/xmlCAAAAcAAJ?hl=pl&gbpv=0), Thomas Fritsch, Lipsia, 1697<a id="item-two"></a>;
+3. A. Conlunga Cueto, L. Turrado Turrado (editores), *Biblia Sacra iuxta Vulgatam Clementinam*, Biblioteca de Autores Cristianos, Madrid, 1999;
+4. E. Schick (editor), [*Nova Vulgata*](https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html) (2ᵃ ed.), Libreria Editrice Vaticana, Città del Vaticano, 1998;
+5. E. Nestle, K. Aland (editores), *Novum Testamentum Graece* (28ᵃ ed.), Deutsche Bibelgesellschaft, Stuttgart, 2012;
+6. M. A. C. de Vaan, *Etymological Dictionary of Latin and the other Italic Languages*, Brill, Leiden, 2008;
+7. P. G. W. Glare (editor), *Oxford Latin Dictionary* (2ᵃ ed.), Oxford University Press, Oxford, 2012;
+8. F. Gaffiot, [*Dictionnaire illustré latin-français*](https://archive.org/details/Gaffiot2016), Gérard Gréco, 2016;
+9. J. Diggle (editor), *The Cambridge Greek Lexicon*, Cambridge University Press, Cambridge, 2021;
+10. H. Hagen (et alii), [*ConTeXt LMTX*](https://www.pragma-ade.nl/install.htm), Pragma ADE;
+11. [J. Winge](https://github.com/Alatius), [*A Latin Macronizer*](https://alatius.com/macronizer/);
+12. The Gregorio Project, [*hyphen-la*](https://github.com/gregorio-project/hyphen-la);
+13. S. Castellio, [*Biblia interprete Sebastiano Castellione*](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione), Vicifons;
+14. Blue Letter Bible Institute, [*Blue Letter Bible*](https://www.blueletterbible.org).
 
 ---
 
