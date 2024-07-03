@@ -56,7 +56,7 @@ Sincere, ista me paupertas dolet!
 ## Opera scripta in $\rm Con\TeX t$
 
 Usus systemate $\rm Con\TeX t$ — quod versio celeberrimi systematos $\rm \TeX$ est — efficit, ut quaevis pagina huius editionis formosa bellaque videatur.
-Editio typica mei rescripti compilatur cum $\rm Con\TeX t$ LMTX 2024.06.21.
+Editio typica mei rescripti compilatur cum $\rm Con\TeX t$ LMTX 1.06.
 
 Mea interest varios adesse modos compilationis diversis pro dispositivis electronicis — tum parvis, tum grandibus.
 Varii atque adsunt optiones quae ad orthographiam spectant, quae describuntur infra.
