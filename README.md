@@ -20,7 +20,7 @@ Orthographicos errores corrigere studeo — [*Le Gaffiot*](https://gaffiot.fr/) 
 
 Cum [*Vulgata*](https://vulsearch.sourceforge.net/html/) sancti Hieronymi Stridonensis praeclara sit ac Catholica ab Ecclesia approbata, translatio eius postclassica et vulgaris est, quod saepe erroribus abusibusque linguisticis manifestetur.
 Simili modo, [*Nova Vulgata*](https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html), recentioribus annis divulgata a Vaticano, vix melior est, modum scribendi Hieronymi conservans eius cum lapsibus.
-Latinitas tamen Castellionis alta, classica, pulcraque est (cf. *Iudicia doctorum virorum de Bibliis Castellionis* eodem in libro) —
+Latinitas tamen Castellionis alta, classica, pulcraque est (cf. *Iudicia doctorum virorum de Bibliis Castellionis* in [2](item-two)) —
 Castellio usus constructionibus classicis est ac cavit, ne multa Graeca Hebraecave verba introducerentur bona sine ratione.
 
 ### Exempla
@@ -76,9 +76,9 @@ Credo nostris temporibus hoc modo maioritatem librorum Latinorum imprimi. Invoca
 
 Si non habes, mi Lector, systema $\rm Con\TeX t$ tuo in computatro installatum, i visum catalogon ``pdf``, ubi quattuor documenta exemplaria insunt.
 
-Varii modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum tamen mihi est quattuor nunc genera chartae utenda esse: *B5*, *4:3*, *8:5*, et *16:9* — tres ultimi idonei sint varias apud tabulas electronicas. Uti dimensiones chartae mutentur, invocamus e.g. ``context --mode=tablet_4_3 bible.tex``.
+Diversi modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum tamen mihi est quattuor nunc genera chartae utenda esse: *B5*, *4:3*, *8:5*, et *16:9* — tres ultimi idonei sint varias apud tabulas electronicas. Uti dimensiones chartae mutentur, invocamus e.g. ``context --mode=tablet_4_3 bible.tex``.
 
-Varii modi compilationis coniuncti possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classicam orthographiam secus, pro tabulis in *4:3* proportione.
+Varii modi compilationis coniungi possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classicam orthographiam secus, pro tabulis in *4:3* proportione.
 Plura invenienda sunt in ``configuration.tex`` documento, hieraticis linguis $\rm Lua$ ac $\rm\TeX$ scripto. Commentarii aliquis in locis Anglico sermone scripsi.
 
 ### Exemplum
@@ -155,7 +155,7 @@ Gratias ago variis hominibus coetisque hominum. Primum, quod est perspicuum, gra
 Infra posui aliquos fontes et situs, qui magnopere prosint mihi ad meam operam perficiendam. <mark>Omnis situs Interretialis Kalendis Iuliis anno ᴍᴍxxɪᴠ accessibilis est</mark>.
 
 1. S. Castellio, [*Biblia interprete Sebastiano Castellione*](https://books.google.pl/books?id=1Z1kAAAAcAAJ&dq=editions%3ALCCN2003586150&hl=pl&source=gbs_book_other_versions), Johannes Oporinus, Basilea, 1551;
-2. S. Castellio, [*Biblia Sacra ex Sebastiani Castellionis interpretatione*](https://www.google.pl/books/edition/Biblia_Sacra/xmlCAAAAcAAJ?hl=pl&gbpv=0), Thomas Fritsch, Lipsia, 1697;
+2. S. Castellio, [*Biblia Sacra ex Sebastiani Castellionis interpretatione*](https://www.google.pl/books/edition/Biblia_Sacra/xmlCAAAAcAAJ?hl=pl&gbpv=0), Thomas Fritsch, Lipsia, 1697;<a id="item-two"></a>
 3. E. Schick (editor), [*Nova Vulgata*](https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html) (2ᵃ ed.), Libreria Editrice Vaticana, Città del Vaticano, 1998;
 4. E. Nestle, K. Aland (editores), *Novum Testamentum Graece* (28ᵃ ed.), Deutsche Bibelgesellschaft, Stuttgart, 2012;
 5. M. A. C. de Vaan, *Etymological Dictionary of Latin and the other Italic Languages*, Brill, Leiden, 2008;
