@@ -58,14 +58,18 @@ Sincere, ista me paupertas dolet!
 Usus systemate $\rm Con\TeX t$ — quod versio celeberrimi systematos $\rm \TeX$ est — efficit, ut quaevis pagina huius editionis formosa bellaque videatur.
 Editio typica mei rescripti compilatur cum $\rm Con\TeX t$ LMTX 1.06.
 
+Citationes mea in opera Helvetico more indicantur, i.e. verba citata duplicibus signis *«* et *»* incipiuntur finiunturque, dum verba citata aliam infra citationem singulis signis *‹* et *›* delimitantur. Verba Iesu Christi, antiquam traditionem sequens, rubro colore distinguo; tingunturque eodem colore numeri versuum. Sententiae alias ad partes Bibliorum alludentes, *Novae Vulgatae* regulas secus, 𝑜𝑏𝑙𝑖𝑞𝑢𝑖𝑠 𝑙𝑖𝑡𝑡𝑒𝑟𝑖𝑠 scribuntur.
+
+Originalibus in editionibus operae Castellionis, textus frangitur *secundum versus*, quod, mea sententia, difficiliorem multifariam textum legendum efficit. Mea nam editione, textus in paragraphos dividitur *ad sensum*, divisiones *Novae Vulgatae* aemulans.
+
 Mea interest varios adesse modos compilationis diversis pro dispositivis electronicis — tum parvis, tum grandibus.
-Varii atque adsunt optiones quae ad orthographiam spectant, quae describuntur infra.
+Varii atque adsunt optiones, quae ad orthographiam spectant; hae brevi infra describuntur.
 
 ### Modi compilationis
 
-**Modus praedefinitus** documentum producit, ubi longi vocales signo ◌̄ indicantur, littera *j* apparet, ac duae consonantes assimilantur ad invicem, e.g. *immortalis* pro *inmortalis*, *illuminatio* pro *inluminatio*, etc.
+**Modus praedefinitus** documentum producit, ubi longi vocales signo ◌̄ indicantur, littera *j* apparet, ac duae consonantes assimilantur ad invicem, e.g. *immortalis* pro *inmortalis*, *sufferre* pro *subferre*, *aggredi* pro *adgredi*, etc.
 Praedefinitae dimensiones chartae sunt *B5*, normas Europeas secus.
-Hic modus plane ``context bible.tex`` invocatur ex terminale aperto loco, ubi documentum ``bible.tex`` inest.
+Hic modus plane ``context bible.tex`` invocatur ex terminale aperto catalogo, ubi documentum ``bible.tex`` inest.
 
 **Modus classicus** efficit, ut quantitas vocalium not indicetur nec litterae *j* et *J* appareant.
 Credo nostris temporibus hoc modo maioritatem librorum Latinorum imprimi. Invocatur  ``context --mode=classical bible.tex``.
@@ -81,7 +85,7 @@ Diversi modi minores atque adsunt, sed nunc non describuntur hoc loco. Dicendum 
 Varii modi compilationis coniungi possunt, e.g. ``context --mode=classical,tablet_4_3 bible.tex`` producit documentum classicam orthographiam secus, pro tabulis in *4:3* proportione.
 Plura invenienda sunt in ``configuration.tex`` documento, hieraticis linguis $\rm Lua$ ac $\rm\TeX$ scripto. Commentarii aliquis in locis Anglico sermone scripsi.
 
-### Exemplum
+### Exempla
 
 Intueamur fragmentum *Iac 4, 12*. Modo praedefinito id sonat:
 > Ūnus est lēgislātor atque jūdex, quī et servāre potest et perdere. Tū vērō quis es, quī alterum damnās?
@@ -94,6 +98,22 @@ Modo classico:
 
 Modo Oxoniensi:
 > Vnus est legislator atque iudex, qui et seruare potest et perdere. Tu uero quis es, qui alterum damnas?
+
+Consideremus atque fragmentum *Apc 21, 6*. Modus praedefinitus producit:
+
+> Tum mihi dīxit: «Factum est! Ego sum Α et Ω, prīncipium et fīnis. Ego sitientī dabō dē fonte aquae vītae grātīs».
+
+Modus ecclesiasticus dat:
+
+> Tum mihi dixit: «Factum est! Ego sum Α et Ω, principium et finis. Ego sitienti dabo de fonte aquæ vitæ gratis».
+
+Modus classicus fert:
+
+> Tum mihi dixit: «Factum est! Ego sum Α et Ω, principium et finis. Ego sitienti dabo de fonte aquae vitae gratis».
+
+Postremo, modus Oxoniensis producit:
+
+> Tum mihi dixit: «Factum est! Ego sum Α et Ω, principium et finis. Ego sitienti dabo de fonte aquae uitae gratis».
 
 ## Perfecta perficiendaque
 
